@@ -1,0 +1,19 @@
+{
+  "name": "ghau-backend",
+  "version": "1.0.0",
+  "description": "App for chor, daka, police ani innocent innocent manxey haru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tech-Nest-Hub/ghau-backend.git"
+  },
+  "author": "Ghost Aakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tech-Nest-Hub/ghau-backend/issues"
+  },
+  "homepage": "https://github.com/Tech-Nest-Hub/ghau-backend#readme"
+}
