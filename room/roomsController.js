@@ -15,3 +15,13 @@ export const leaveRoom = (socket) => {
         socket.leave(data)
     })
 }
+
+export const privateDM = (socket) => {
+    socket.on("private_message", ({ to, message }) => {
+    io.to(to).emit("receive_private_message", {
+        message,
+        from: socket.id
+    });
+});
+
+}

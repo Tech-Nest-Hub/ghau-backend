@@ -1,4 +1,4 @@
-import { joinRoom } from "../room/roomsController.js";
+import { joinRoom, leaveRoom, privateDM } from "../room/roomsController.js";
 
 export const socketConnection = (io) => io.on("connection", (socket) => {
     console.log(`User Connected: ${socket.id}`);
@@ -15,4 +15,6 @@ export const socketConnection = (io) => io.on("connection", (socket) => {
     });
     
     joinRoom(socket);
+    leaveRoom(socket);
+    privateDM(socket);
 });
