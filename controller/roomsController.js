@@ -1,6 +1,5 @@
 import Room from '../models/Room.js';
 import { assignRoles } from '../utils/roleAssigner.js';
-import { getIO } from '../services/socketServices.js';
 
 const rooms = new Map();
 
